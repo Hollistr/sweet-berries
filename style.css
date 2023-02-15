@@ -1,0 +1,89 @@
+html, body {
+    font-family: 'Roboto', serif;
+}
+
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    margin: 40px;
+    top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-logo {
+    background-color: #e5e5e5;
+    height: 40px;
+    width: 162px;
+}
+
+.nav-button {
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    width: 130px;
+    height: 48px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.head-para {
+    font-size: 24px;
+}
+
+.image {
+    height: 440px;
+    width: 600px;
+    border-radius: 40px;
+}
+
+.first-card {
+    background-color: #febd2f;
+    font-size: 40px;
+    border-radius: 40px;
+    width: 400px;
+    height: 324px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 40px;
+    width: 400px;
+    height: 324px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    border: solid 1px #dcdcdc;
+    height: 48px;
+    width: 143px;
+    border-radius: 50px;
+}
+
+.footer {
+    background-color: #febd2f;
+}
+
+.foot-logo {
+    background-color: #febd2f;
+    height: 32px;
+    width: 129.62px;
+}
