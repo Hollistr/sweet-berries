@@ -1,4 +1,53 @@
-html, body {
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 600px 880px 80px;
+}
+.header {
+    grid-column: 1/6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sidebar {
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    grid-column: 4/6;
+    display: flex;
+    align-items: center;
+}
+
+.cards-container {
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer {
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd2f;
+}
+
+ html, body {
     font-family: 'Roboto', serif;
 }
 
@@ -6,11 +55,6 @@ body {
     background-color: #e5e5e5;
     margin: 0;
     padding: 0;
-}
-
-.grid-container {
-    margin: 40px;
-    top: 10px;
 }
 
 a {
@@ -38,28 +82,38 @@ h1 {
     font-size: 64px;
 }
 
-.head-para {
+.header-para {
     font-size: 24px;
 }
 
-.image {
+.img {
     height: 440px;
-    width: 600px;
+    width: 500px;
     border-radius: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: card-container;
 }
 
 .first-card {
     background-color: #febd2f;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 40px;
-    width: 400px;
+    width: 300px;
     height: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
     background-color: white;
     border-radius: 40px;
-    width: 400px;
+    width: 300px;
     height: 324px;
 }
 
@@ -76,14 +130,13 @@ button {
     height: 48px;
     width: 143px;
     border-radius: 50px;
+    background-color: white;
 }
 
-.footer {
-    background-color: #febd2f;
-}
-
-.foot-logo {
+.footer-logo {
     background-color: #febd2f;
     height: 32px;
-    width: 129.62px;
+    width: 129px;
+    display: flex;
+    align-items: center;
 }
