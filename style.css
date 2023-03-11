@@ -1,3 +1,4 @@
+/* Grid template areas haven’t been used to display items at different positions in different viewports. */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -50,6 +51,7 @@
     background-color: #febd2f;
 }
 
+/* We have 2 fonts in the Figma file but you only used one. */
  html, body {
     font-family: 'Roboto', serif;
 }
@@ -150,3 +152,7 @@ button {
     display: flex;
     align-items: center;
 }
+
+/* You haven’t created a functional hamburger menu for mobile devices. */
+
+/* You haven't used any media queries */
